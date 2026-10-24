@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Домашнее задание на две недели</title>
+<style>
+:root{--ink:#1a2330;--muted:#5b6673;--line:#dfe4ea;--bg:#f7f8fa;--card:#fff;--accent:#1a4d8f;--accent2:#0f7b6c;--warn:#b8860b;--warnbg:#fff8e6;--free:#0f7b6c;--freebg:#e6f5f2}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+header{background:#0b3d6b;background:linear-gradient(135deg,#0b3d6b,#1a4d8f);color:#fff;padding:32px 24px}
+header .wrap{max-width:1080px;margin:0 auto}
+header .badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600}
+header h1{font-size:29px;line-height:1.25;margin:14px 0 10px;font-weight:700}
+header p{font-size:16px;opacity:.92;max-width:800px}
+header .meta{font-size:14px;opacity:.8;margin-top:14px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+main{padding:32px 0 56px}
+section{margin-bottom:44px}
+h2{font-size:22px;margin-bottom:8px;font-weight:700}
+h2 + .lead{color:var(--muted);font-size:15px;margin-bottom:18px}
+h3{font-size:17px;margin:24px 0 10px;font-weight:650}
+h4{font-size:15.5px;margin:0 0 6px;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin-bottom:16px}
+.alert{border-left:4px solid var(--warn);background:var(--warnbg);border-radius:0 8px 8px 0}
+.alert strong{color:#8a6100}
+.good{border-left:4px solid var(--accent2);background:var(--freebg);border-radius:0 8px 8px 0}
+.good strong{color:#0b5f53}
+.free-badge{display:inline-block;background:var(--freebg);color:var(--free);font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:4px;border:1px solid #bfe3dc;white-space:nowrap}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:14.5px}
+th{background:#eef1f5;text-align:left;padding:12px 14px;font-weight:650;font-size:13px;color:#3d4753;border-bottom:2px solid var(--line)}
+td{padding:12px 14px;border-bottom:1px solid #eceff2;vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr.pick{background:#f4faf8}
+.mname{font-weight:650}
+.mid{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--muted);word-break:break-all}
+.prompt{background:#f4f6f8;border:1px solid #e2e6eb;border-left:3px solid var(--accent);border-radius:0 7px 7px 0;padding:14px 16px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;color:#2b3442;margin:12px 0;white-space:pre-wrap;line-height:1.55}
+.prompt-lbl{font-size:13px;font-weight:650;color:var(--accent);margin:16px 0 4px}
+.steps{counter-reset:st;list-style:none;margin:12px 0}
+.steps li{counter-increment:st;position:relative;padding-left:38px;margin-bottom:14px}
+.steps li:before{content:counter(st);position:absolute;left:0;top:0;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-size:13.5px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.check li{list-style:none;position:relative;padding-left:28px;margin-bottom:9px}
+.check li:before{content:"□";position:absolute;left:0;top:-1px;font-size:17px;color:var(--accent2);font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:16px 0}
+.mini{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:16px 18px}
+.mini p{font-size:14px;color:var(--muted)}
+ul,ol{margin:10px 0 10px 22px}
+li{margin-bottom:7px}
+a{color:var(--accent)}
+.tblwrap{overflow-x:auto;border-radius:10px;border:1px solid var(--line);background:var(--card)}
+.tblwrap table{border:none}
+footer{background:#1f2732;color:#9aa5b1;padding:26px 24px;font-size:13.5px}
+footer .wrap{max-width:1080px;margin:0 auto}
+footer a{color:#8fb4e8}
+@media(max-width:640px){header h1{font-size:23px}main{padding:24px 0 40px}th,td{padding:10px 11px;font-size:13.5px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<span class="badge">Раздаточный материал №12</span>
+<h1>Домашнее задание на две недели</h1>
+<p>Что сделать до следующего занятия: сколько пополнить, где, что скачать и сколько места нужно. Пять практических заданий по 15–20 минут в день — без тренера.</p>
+<div class="meta">Занятие 2 · 23 октября 2026 · к следующему занятию · данные проверены 24 октября 2026</div>
+</div></header>
+
+<main class="wrap">
+
+<section>
+<div class="card good">
+<strong>Главная мысль.</strong> Вы просили задание заранее — вот оно. Две недели, 15–20 минут в день, пять пунктов. Всё выполняется без тренера, на уже собранной среде. Ничего покупать больше не нужно: карта есть, баланс есть, место на диске не требуется — всё работает в браузере.
+</div>
+</section>
+
+<section>
+<h2>1. Что нужно сделать до занятия</h2>
+<p class="lead">Четыре пункта. Первый — обязательный, остальные три по желанию, но с ними практика на занятии пойдёт быстрее.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Что</th><th>Зачем</th><th>Сколько времени</th></tr></thead>
+<tbody>
+<tr class="pick"><td class="mname">1. Проверить среду по чек-листу</td><td>Убедиться, что всё живо, и починить, если что-то отвалилось — до занятия, а не в его середине</td><td>10 минут</td></tr>
+<tr><td class="mname">2. Сформулировать задачу для агента письменно</td><td>Что собирать, по каким словам, какие поля выписать, куда положить. Письменная формулировка — половина успеха</td><td>20 минут</td></tr>
+<tr><td class="mname">3. Подготовить фото товара с дефектом</td><td>Лишний предмет, пятно, не тот фон — что-то одно на 2–3 фото</td><td>15 минут</td></tr>
+<tr><td class="mname">4. Записать сценарий ролика из трёх кадров</td><td>Три кадра по пять секунд с задачей каждого. Готовые промпты есть в раздатке №5</td><td>25 минут</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>2. Деньги: пополнить или не надо</h2>
+<p class="lead">Вы спросили, на сколько и куда пополнить. Отвечаю по пунктам.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Куда</th><th>Нужно ли</th><th>Сколько</th><th>Как</th></tr></thead>
+<tbody>
+<tr class="pick"><td class="mname">OpenRouter</td><td>Пока не надо</td><td>На балансе ≈ 10 $</td><td>Это примерно 7 400 ходов — на все оставшиеся занятия хватит. Если хотите перестраховаться — можно положить ещё 5 $ через карту</td></tr>
+<tr class="pick"><td class="mname">LobeHub</td><td>Пока не надо</td><td>Бесплатный тариф</td><td>500 000 кредитов в месяц. Платный тариф обсудим на финальном занятии — там станет ясно, нужен ли</td></tr>
+<tr><td class="mname">Apify</td><td>Да, зарегистрируйтесь</td><td>0 $</td><td>apify.com → войти через Google. Карта не нужна. 5 $ использования в месяц бесплатно</td></tr>
+<tr><td class="mname">Zoner AI</td><td>Нет</td><td>0 $</td><td>Открывается в браузере без регистрации</td></tr>
+<tr><td class="mname">Mirocard</td><td>Нет</td><td>Оставьте небольшой остаток</td><td>Держите на карте 5–10 $ на случай платных сервисов. Комиссия 0,50–0,70 $ за операцию</td></tr>
+</tbody></table></div>
+<div class="card alert">
+<strong>Отдельно про подписки.</strong> Вы упомянули неиспользуемую подписку ChatGPT, которую списывали деньги. Раз в месяц загляните в раздел подписок на телефоне и отмените всё, чем не пользуетесь. Мелочь, но за курс это съедаемо.
+</div>
+</section>
+
+<section>
+<h2>3. Место и программы: ничего ставить не нужно</h2>
+<p class="lead">Отдельный вопрос — сколько места на компьютере требуется. Ответ: ноль.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Что</th><th>Сколько места</th><th>Нужно ли ставить</th></tr></thead>
+<tbody>
+<tr class="pick"><td class="mname">LobeHub, агенты, коннекторы</td><td>0 МБ — работает в браузере</td><td>Нет. Вы уже всё настроили</td></tr>
+<tr class="pick"><td class="mname">Zoner AI, правка фото</td><td>0 МБ — работает в браузере</td><td>Нет</td></tr>
+<tr class="pick"><td class="mname">Apify</td><td>0 МБ — облачный сервис</td><td>Нет</td></tr>
+<tr><td class="mname">Приложение на компьютер</td><td>≈ 200–400 МБ</td><td>Нет. Мы остановились на браузерном варианте — он работает с телефона и компьютера одинаково</td></tr>
+</tbody></table></div>
+<div class="card good">
+<strong>Если хотите всё же почистить диск.</strong> На занятии установка на компьютер сорвалась из-за нехватки места. Мы решили не ставить. Но если хотите освободить место заранее — присмотритесь к большим файлам, которые не скачаны, и к папке «Загрузки». Удаляйте только то, что точно не нужно: файлы удаляются полностью и восстановить их сложно.
+</div>
+</section>
+
+<section>
+<h2>4. Практика на две недели: 15–20 минут в день</h2>
+<p class="lead">Пять заданий. Каждое — отдельный день, кроме четвёртого, там нужно три дня подряд.</p>
+
+<h3>Задание 1. Спросите, чего не хватает</h3>
+<p>Откройте агента и напишите: <strong>«Каких навыков и инструментов тебе не хватает для выполнения твоих задач?»</strong> Запишите ответ. Если он назовёт сервис, которого у вас нет — подключите его по раздатке №10 и запишите, что получилось.</p>
+
+<h3>Задание 2. Тест «молча»</h3>
+<p>Три вопроса подряд, без уточнений и без подсказок:</p>
+<ol class="steps">
+<li>«Какие задачи ты можешь решать?»</li>
+<li>«Что тебе нужно, чтобы работать лучше?»</li>
+<li>«С чего начнём?»</li>
+</ol>
+<p>Запишите, какие инструменты агент подключил сам и какие вопросы задал. Этот список — материал для нашего разбора на занятии.</p>
+
+<h3>Задание 3. Один и тот же вопрос дважды</h3>
+<p>Выберите одну задачу и поставьте её агенту дважды: сначала коротко («собери и разложи по таблице»), потом подробно (что собирать, по каким словам, какие поля, куда класть). Сравните результаты. Обычно подробная формулировка даёт таблицу, а короткая — список. Запишите разницу и вывод одной фразой.</p>
+
+<h3>Задание 4. Три рабочих дня подряд</h3>
+<p>Одна и та же задача агента по сбору данных, но каждый день с разными фильтрами. Например: первый день — «носки, 50–150 ₽», второй — «носки, 150–300 ₽, рейтинг от 4,5», третий — «гольфы, любой рейтинг». Каждый раз записывайте: что пришлось уточнить и что агент понял не сразу. Это самая полезная часть домашнего задания — на занятии разберём ваши формулировки.</p>
+
+<h3>Задание 5. Три правки и один кадр</h3>
+<p>Три правки своего фото через Zoner AI маской: лишний предмет, пятно, не тот фон. Один черновик кадра ролика из трёх. Сравните исходник и результат — в Zoner AI видно, что изменилась только закрашенная область.</p>
+</section>
+
+<section>
+<h2>5. Что подготовить и принести</h2>
+<ul class="check">
+<li>Записанный список того, чего не хватает агенту</li>
+<li>Три вопроса теста «молча» и ответы на них</li>
+<li>Ваша задача, записанная словами: что собирать, по каким словам, какие поля, куда положить</li>
+<li>Фильтр для первой выгрузки: площадка, запрос, ценовой диапазон, нужные поля</li>
+<li>2–3 фото товара с дефектом</li>
+<li>Сценарий ролика из трёх кадров</li>
+<li>Одно замечание: что из собранной системы оказалось лишним</li>
+</ul>
+<div class="card alert">
+<strong>Пункт про «оказалось лишним» — не формальность.</strong> На финальном занятии мы будем собирать конвейер целиком: что оставляем, что убираем. Ваш список избавит вас от лишней подписки и лишних инструментов. Записывайте всё, что вызвало раздражение, пока работаете.
+</div>
+</section>
+
+<section>
+<h2>6. Если что-то не получилось</h2>
+<div class="tblwrap"><table>
+<thead><tr><th>Симптом</th><th>Что делать</th></tr></thead>
+<tbody>
+<tr><td>Не открывается LobeHub</td><td>Проверьте, что вошли под тем же Google-аккаунтом. Агент должен быть виден слева</td></tr>
+<tr><td>Агент не отвечает</td><td>Проверьте баланс OpenRouter и что провайдер включён. Баланс закончился — агент об этом сообщает прямо</td></tr>
+<tr><td>Агент отвечает, но не использует инструменты</td><td>Скорее всего, не подключён нужный коннектор. Спросите агента, чего ему не хватает</td></tr>
+<tr><td>Не получилось зарегистрироваться в Apify</td><td>Это не блокирует. Попробуйте ещё раз или переходите к другому пункту. Покажете на занятии</td></tr>
+<tr><td>Zoner AI не грузится</td><td>Есть запасной вариант: stablediffusion.fr/inpainting — та же логика, кисть маски, промпт на английском. Бывает очередь</td></tr>
+<tr><td>Не успеваете за день</td><td>Не гонитесь за объёмом. Один день с одним заданием лучше, чем пять дней ни одного</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>7. Чек-лист перед занятием</h2>
+<ul class="check">
+<li>Среда проверена по чек-листу из раздатки №9</li>
+<li>Задача для агента записана словами</li>
+<li>Apify зарегистрирован</li>
+<li>2–3 фото с дефектом готовы</li>
+<li>Сценарий из трёх кадров записан</li>
+<li>Список «чего не хватает агенту» готов</li>
+<li>Сравнение двух формулировок задачи записано</li>
+<li>Три дня с разными фильтрами отработаны</li>
+<li>Три правки и один кадр сделаны</li>
+<li>Замечание про лишнее записано</li>
+</ul>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+Раздаточный материал №12 · Домашнее задание на две недели · Занятие 2, 23 октября 2026<br>
+Источники: lobehub.com/pricing · openrouter.ai · apify.com · zonerai.com · stablediffusion.fr · mirocard.ru<br>
+Данные проверены 24 октября 2026. Тарифы и лимиты меняются — сверяйтесь перед оплатой.
+</div></footer>
+</body>
+</html>
